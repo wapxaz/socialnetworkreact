@@ -1,7 +1,8 @@
 import React from 'react';
+import profileCss from './Profile.module.css';
 
 const Profile = () => {
-	return <div className="content">
+	return <div className={profileCss.content}>
         <div>
           <img src="https://s1.cdn.autoevolution.com/images/news/compact-suv-comparison-finds-bmw-x1-is-better-than-mercedes-gla-and-audi-q3-115365_1.jpg" />
         </div>

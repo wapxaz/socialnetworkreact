@@ -1,0 +1,12 @@
+.sidebar {
+  grid-area: nav;
+  background-color: lightgreen;
+}
+
+.sidebar2 {
+  color: #fff;
+}
+
+.item a {
+  color: #fff;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import profileCss from './Profile.module.css';
+import MyPosts from './MyPosts/MyPosts.jsx';
 
 const Profile = () => {
 	return <div className={profileCss.content}>
@@ -14,20 +15,7 @@ const Profile = () => {
             Описание
           </div>
         </div>
-        <div>
-          Пост
-            <div>
-              Новый пост
-            </div>
-        </div>
-        <div>
-          <div>
-            Пост 1
-          </div>
-          <div>
-            Пост 2
-          </div>
-        </div>
+        <MyPosts />
       </div>
 }
 

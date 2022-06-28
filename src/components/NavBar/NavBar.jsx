@@ -4,19 +4,19 @@ import navbarCss from './NavBar.module.css';
 const NavBar = () => {
 	return <nav className={`${navbarCss.sidebar} ${navbarCss.sidebar2}`}>
         <div className={navbarCss.item}>
-          <a href="">Профиль</a>        
+          <a href="/profile">Профиль</a>        
         </div>
         <div className={navbarCss.item}>
-          <a href="">Сообщения</a>
+          <a href="/dialogs">Сообщения</a>
         </div>
         <div className={navbarCss.item}>
-          <a href="">Новости</a>
+          <a href="/news">Новости</a>
         </div>
         <div className={navbarCss.item}>
-          <a href="">Музыка</a>
+          <a href="/music">Музыка</a>
         </div>
         <div className={navbarCss.item}>
-          <a href="">Настройки</a>
+          <a href="/settings">Настройки</a>
         </div>
       </nav>
 }
